@@ -2,7 +2,7 @@
 &nbsp; Flappy Bird using a genetic algorithm
 
 ## Screenshots
-<img src="res/readme/screenShot.png" width=434> <img src="res/readme/gif.gif" width=434>
+<img src="res/readme/screenShot.png" width=430> <img src="res/readme/gif.gif" width=430>
 
 ## Team
 | **Vishal Chandra** | **Sophia Hubscher** |
