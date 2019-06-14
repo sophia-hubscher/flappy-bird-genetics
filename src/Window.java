@@ -45,7 +45,7 @@ public class Window extends JFrame implements ActionListener, KeyListener
         } else
         {
             delayTime = 20;
-            pipeDelay = 190;
+            pipeDelay = 220;
         }
 
         this.setResizable(false);
@@ -72,7 +72,7 @@ public class Window extends JFrame implements ActionListener, KeyListener
         masterPanel.add(display, BorderLayout.CENTER);
 
         //sets title and size of window and set to be visible in the JFrame
-        this.setTitle("frog emphysema");
+        this.setTitle("Flappy Genetics");
         this.setSize(width, height);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);

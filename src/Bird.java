@@ -1,8 +1,5 @@
 import basicneuralnetwork.NeuralNetwork;
 
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.io.File;
 import java.time.LocalTime;
 
 /**
@@ -32,7 +29,6 @@ public class Bird implements Comparable<Bird>
     int imageNum = 0;
 
     NeuralNetwork brain;
-
 
     float createdTime = LocalTime.now().toSecondOfDay();
 
@@ -160,13 +156,15 @@ public class Bird implements Comparable<Bird>
         velocity = 0;
     }
 
-    void decide() {
+    void decide()
+    {
         double[] inputLayer = {(double)(gapX - this.x), (double)(gapY - this.y)};
         double prediction = brain.guess(inputLayer)[0];
         if(prediction > 0.5) flap();
     }
 
-    public int compareTo(Bird b) {
+    public int compareTo(Bird b)
+    {
         if(this.timeAlive() == b.timeAlive()) return 0;
         if(this.timeAlive() > b.timeAlive()) return 1;
         return -1;
