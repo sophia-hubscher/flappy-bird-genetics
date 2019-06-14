@@ -1,0 +1,110 @@
+{
+  "activationFunctionFactory": {
+    "activationFunctionMap": {
+      "TANH": {
+        "type": "basicneuralnetwork.activationfunctions.TanhActivationFunction",
+        "data": {}
+      },
+      "RELU": {
+        "type": "basicneuralnetwork.activationfunctions.ReLuActivationFunction",
+        "data": {}
+      },
+      "SIGMOID": {
+        "type": "basicneuralnetwork.activationfunctions.SigmoidActivationFunction",
+        "data": {}
+      }
+    }
+  },
+  "random": {
+    "seed": 216677694127579,
+    "nextNextGaussian": -0.8670564829912689,
+    "haveNextNextGaussian": true
+  },
+  "inputNodes": 2,
+  "hiddenLayers": 1,
+  "hiddenNodes": 4,
+  "outputNodes": 1,
+  "weights": [
+    {
+      "mat": {
+        "type": "org.ejml.data.DMatrixRMaj",
+        "data": {
+          "data": [
+            -0.8789017215388433,
+            0.6167241264256345,
+            -0.8390748108841133,
+            -0.8523266497113087,
+            -0.6276705769068116,
+            0.18137202101930328,
+            0.6557489013464248,
+            -0.49000130379568174
+          ],
+          "numRows": 4,
+          "numCols": 2
+        }
+      },
+      "ops": {
+        "type": "org.ejml.simple.ops.SimpleOperations_DDRM",
+        "data": {}
+      }
+    },
+    {
+      "mat": {
+        "type": "org.ejml.data.DMatrixRMaj",
+        "data": {
+          "data": [
+            -0.7515498293537808,
+            -0.2637671416721299,
+            1.5546080547338472,
+            -0.7572131691809625
+          ],
+          "numRows": 1,
+          "numCols": 4
+        }
+      },
+      "ops": {
+        "type": "org.ejml.simple.ops.SimpleOperations_DDRM",
+        "data": {}
+      }
+    }
+  ],
+  "biases": [
+    {
+      "mat": {
+        "type": "org.ejml.data.DMatrixRMaj",
+        "data": {
+          "data": [
+            0.9813819849700602,
+            0.021698223388516236,
+            -0.8153789037170287,
+            -0.6814942695810577
+          ],
+          "numRows": 4,
+          "numCols": 1
+        }
+      },
+      "ops": {
+        "type": "org.ejml.simple.ops.SimpleOperations_DDRM",
+        "data": {}
+      }
+    },
+    {
+      "mat": {
+        "type": "org.ejml.data.DMatrixRMaj",
+        "data": {
+          "data": [
+            -0.9606881983755693
+          ],
+          "numRows": 1,
+          "numCols": 1
+        }
+      },
+      "ops": {
+        "type": "org.ejml.simple.ops.SimpleOperations_DDRM",
+        "data": {}
+      }
+    }
+  ],
+  "learningRate": 0.1,
+  "activationFunctionKey": "SIGMOID"
+}
