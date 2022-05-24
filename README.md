@@ -1,8 +1,12 @@
 # Flappy Genetics
-&nbsp; Flappy Bird trained using a genetic algorithm
+&nbsp; Flappy Bird clone trained using a genetic algorithm
 
 ## Screenshots
 <img src="res/readme/screenShot.png" width=430> <img src="res/readme/gif.gif" width=430>
+
+## Stack
+- Neural network library created by [Kim Marcel](https://github.com/kim-marcel/basic_neural_network)
+- Interactive GUI elements written in Java Swing
 
 ## Team
 | **Vishal Chandra** | **Sophia Hubscher** |
